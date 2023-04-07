@@ -1,15 +1,11 @@
 import os
-from list_all_dir import ls
 
-directory_location = "/home/tyrafero/Documents/assess1/"
+# directory_location = "/home/tyrafero/Documents/assess1/"
 
-def cp_file():
+def cp_file(src_path,dest_path ):
     """
     Copy a file from a source path to a destination path.
     """
-    # Prompt user to enter source and destination paths
-    src_path = input("Enter the path to the source file: ")
-    dest_path = input("Enter the path to the destination file: ")
 
     # Copy the source file to the destination path
     with open(src_path, 'rb') as src_file:
@@ -21,7 +17,6 @@ def cp_file():
     os.chmod(dest_path, source_stat.st_mode)
 
 # Call the cp() function
-cp_file()
+cp_file(input("Enter the path to the source file: "), 
+        input("Enter the path to the destination file: "))
 
-# List the contents of the directory
-ls(directory_location)
