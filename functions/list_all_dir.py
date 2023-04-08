@@ -1,5 +1,4 @@
 import os
-directory_location= "/home/tyrafero/Documents/assess1/"
 
 def ls(directory_path):
     """
@@ -9,6 +8,3 @@ def ls(directory_path):
     files = os.listdir(directory_path)
     for file in files:
         print(file)
-
-
-ls(directory_location)

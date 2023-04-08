@@ -10,4 +10,3 @@ def rand_text(path,filename):
             f.write(line + '\n')
 
 
-rand_text(input("Enter path for file: "), input("Enter filename: "))

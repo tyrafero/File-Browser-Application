@@ -16,7 +16,5 @@ def cp_file(src_path,dest_path ):
     source_stat = os.stat(src_path)
     os.chmod(dest_path, source_stat.st_mode)
 
-# Call the cp() function
-cp_file(input("Enter the path to the source file: "), 
-        input("Enter the path to the destination file: "))
+
 

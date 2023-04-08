@@ -8,4 +8,3 @@ def read_file(path):
             text = byte_string.decode('latin-1')
         print(text)
 
-read_file(input("Enter path of file to read: "))

@@ -10,5 +10,3 @@ def rn_folder(old_folder_name,new_folder_name):
     """
     os.rename(directory_location+old_folder_name, directory_location+new_folder_name)
 
-rn_folder(input("Enter a old folder name: ")
-          ,input("Enter a new folder name: "))

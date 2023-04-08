@@ -6,4 +6,3 @@ def view_hidden(path):
     for file in files:
         print(file)
 
-view_hidden(input("Enter the path of the directory: "))
