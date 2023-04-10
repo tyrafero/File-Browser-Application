@@ -41,27 +41,35 @@ def main():
         elif choice == "4":
             del_folder.rm_folder(input("Enter the folder path: "))
         elif choice == "5":
-            hide_file.hide_file(input("Enter path to file: "), input("Enter file name: "))
+            hide_file.hide_file(input("Enter path to file: "), 
+                                input("Enter file name: "))
         elif choice == "6":
             view_hidden_file.view_hidden(input("Enter the directory path: "))
         elif choice == "7":
-            rename_file.rn_file(input("Old file name: "), input("New file name: "))
+            rename_file.rn_file(input("Old file name: "), 
+                                input("New file name: "))
         elif choice == "8":
-            rename_dir.rn_dir(input("Old dir name: "), input("New dir name: "))
+            rename_dir.rn_dir(input("Old dir name: "), 
+                              input("New dir name: "))
         elif choice == "9":
-            mv_file.mv_file(input("Enter source path: "), input("Enter destination path: "))
+            mv_file.mv_file(input("Enter source path: "), 
+                            input("Enter destination path: "))
         elif choice == "10":
-            mv_folder.mv_dir(input("Enter source path: "), input("Enter destination path: "))
+            mv_folder.mv_dir(input("Enter source path: "), 
+                             input("Enter destination path: "))
         elif choice == "11":
-            empty_file.empt_file(input("Enter path for file: "), input("Enter desired file name: "))
+            empty_file.empt_file(input("Enter path for file: "), 
+                                 input("Enter desired file name: "))
         elif choice == "12":
-            makefileexe.make_file_exe(input("Enter path to file: "), input("Enter file name: "))
+            makefileexe.make_file_exe(input("Enter path to file: "), 
+                                      input("Enter file name: "))
         elif choice == "13":
             list_all_dir.ls(input("Enter the directory path: "))
         elif choice == "14":
             read_file.read_file(input("Enter path of file to read: "))
         elif choice == "15":
-            random_text.rand_text(input("Enter path for file: "), input("Enter filename: "))
+            random_text.rand_text(input("Enter path for file: "), 
+                                  input("Enter filename: "))
         else:
             print("Invalid choice")
 
